@@ -94,4 +94,4 @@ Now, run ```npm run prettier-format``` and watch it automagically format many of
 ## VSCode Configs 
 All settings for VSCode are in ```.vscode/settings.json``` file.
 
-> OBS: Add comment // eslint-disable-next-line no-undef for lines ignore validation in code.
+> OBS: Add comment ```// eslint-disable-next-line no-undef``` for lines ignore validation in code.
