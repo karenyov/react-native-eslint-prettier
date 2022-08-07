@@ -90,3 +90,6 @@ Finally, add a script to package.json to run prettier on all your existing files
 
 
 Now, run ```npm run prettier-format``` and watch it automagically format many of the files in our project. Just like that, we've updated the formatting for every file in the project. Now, if a team member modifies one of those files days or weeks later, their PR won't be polluted with tons of formatting changes that hide their real changes.
+
+## VSCode Configs 
+All settings for VSCode are in ```.vscode/settings.json``` file.
