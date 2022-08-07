@@ -45,16 +45,14 @@ Now, we'll need to add a lint script to our package.json:
 "lint-and-fix": "eslint . --ext .ts,.tsx,.js,.jsx,.json --fix",
 ...
 }
-
 ```
-The two script above will let you npm run lint or npm run lint-and-fix to see/fix all the linting errors in your project.
+The two script above will let you npm run lint or ```npm run lint-and-fix``` to see/fix all the linting errors in your project.
 
 ## Installing and Configuring Prettier
 To install Prettier, run this command
 
 ```
 yarn add --dev prettier
-
 ```
 
 Now, we need to add the magic sauce to keep all your files formatted just the way your team likes (after arguing for a few days).
@@ -67,7 +65,6 @@ Add a .prettierrc file to look something like this:
   "singleQuote": false,
   "printWidth": 80
 }
-
 ```
 
 We also need to keep Prettier and ESLint from whacking each other over the head. Modify your .eslintrc file to look like this:
@@ -92,4 +89,4 @@ Finally, add a script to package.json to run prettier on all your existing files
 ```
 
 
-Now, run npm run prettier-format and watch it automagically format many of the files in our project. Just like that, we've updated the formatting for every file in the project. Now, if a team member modifies one of those files days or weeks later, their PR won't be polluted with tons of formatting changes that hide their real changes.
+Now, run ```npm run prettier-format``` and watch it automagically format many of the files in our project. Just like that, we've updated the formatting for every file in the project. Now, if a team member modifies one of those files days or weeks later, their PR won't be polluted with tons of formatting changes that hide their real changes.
