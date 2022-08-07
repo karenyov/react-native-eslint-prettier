@@ -1,5 +1,7 @@
 # React Native EsLint Prettier for Expo.
-Enforcing Consistent and Error Free Code in an Expo React Native Project with TypeScript.
+Enforcing Consistent and Error Free Code in an Expo React Native Project with TypeScript. 
+Tutorial Resume in this [link](https://justinnoel.dev/2020/07/20/enforcing-consistent-and-error-free-code-in-an-expo-react-native-project-with-typescript/).
+
 
 > Improve your team's code quality and efficiency by using ESLint, Prettier to automate formatting and consistency checks.
 
